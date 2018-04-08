@@ -3,6 +3,10 @@
 
 This is a python-modul which contains usefull fuctions when handling with ocad-files.
 
+### Install
+
+$ pip install ocad
+
 ### Example
 
 
@@ -13,60 +17,33 @@ from ocad import ocad
 
 ```python
 ocad.file_is_cs("OCAD12-File-Sample.ocd")
+
+    >>>False
 ```
-
-
-
-
-    False
-
-
-
 
 ```python
 ocad.file_is_map("OCAD12-File-Sample.ocd")
+
+    >>>True
 ```
-
-
-
-
-    True
-
-
-
 
 ```python
 ocad.file_is_ocad("OCAD12-File-Sample.ocd")
+
+    >>>True
 ```
-
-
-
-
-    True
-
-
-
 
 ```python
 ocad.file_version("OCAD12-File-Sample.ocd", format='short')
-```
 
-
-
-
-    '12'
-
-
+    >>>'12'
+ ```
 
 
 ```python
 ocad.file_info("OCAD12-File-Sample.ocd")
-```
 
-
-
-
-    {'epsg_code': None,
+ >>>{'epsg_code': None,
      'epsg_name': None,
      'georeferenced': True,
      'note': 'map note',
@@ -79,3 +56,5 @@ ocad.file_info("OCAD12-File-Sample.ocd")
      'typ': 'map',
      'version_long': '12.3.1',
      'version_short': '12'}
+```
+
