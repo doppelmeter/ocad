@@ -1,7 +1,7 @@
 
 
 import io
-from ocad_grid_id_to_epsg import ocad_grid_id_2_epsg
+from self.ocad_grid_id_to_epsg import ocad_grid_id_2_epsg
 
 #==============================================================================
 # Sample functions
