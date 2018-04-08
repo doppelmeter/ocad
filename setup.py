@@ -3,7 +3,7 @@ import setuptools
 
 setup(
     name='ocad',
-    version='0.0.1',
+    version='0.0.2',
     author='Marius Huerzeler',
     author_email='huerzeler.marius@gmail.com',
     packages=['ocad', 'ocad.test'],
